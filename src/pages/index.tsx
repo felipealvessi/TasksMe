@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/home.module.css'
+import styles from '../styles/home.module.css'
 import heroImg from '../../public/assets/hero.png'
 
 
@@ -21,8 +21,8 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>
-        Sistema feito para você organizar<br/>
-        seus <span>estudos</span> e <span>tarefas</span>
+          Sistema feito para você organizar<br />
+          seus <span>estudos</span> e <span>tarefas</span>
         </h1>
 
         <div className={styles.infoContent}>
