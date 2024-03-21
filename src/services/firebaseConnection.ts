@@ -2,16 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAb_sn57RKIftfDEmqiZQSnfLInLhdcKFI",
-  authDomain: "tasksme-f422f.firebaseapp.com",
-  projectId: "tasksme-f422f",
-  storageBucket: "tasksme-f422f.appspot.com",
-  messagingSenderId: "527453069184",
-  appId: "1:527453069184:web:22b062fc0a6283b5502b65"
+  apiKey: "AIzaSyBmIOtILBSRsTX59SoDLcHIT2ltv-Pwd6w",
+  authDomain: "tasksme-23fd3.firebaseapp.com",
+  projectId: "tasksme-23fd3",
+  storageBucket: "tasksme-23fd3.appspot.com",
+  messagingSenderId: "335800411519",
+  appId: "1:335800411519:web:69b537aad8428aa75fa64a"
 };
 
 
-// Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 
 const db = getFirestore(firebaseApp)
