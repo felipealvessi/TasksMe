@@ -78,8 +78,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     taskId: id,
   };
 
-  console.log(task);
-
   return {
     props: {
       item: task,
