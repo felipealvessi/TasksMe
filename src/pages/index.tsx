@@ -1,6 +1,3 @@
-import { Analytics } from "@vercel/analytics/react"
-
-
 import { GetStaticProps } from "next";
 import Head from 'next/head'
 import Image from 'next/image'
